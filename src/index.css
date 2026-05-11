@@ -1,0 +1,17 @@
+* { 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0; 
+}
+
+body {
+  background: #e0e0e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  min-height: 100vh;
+  font-family: 'Nunito', sans-serif;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Components - UCR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+  <script type="module" src="./index.js"></script>
+</head>
+<body>
+
+  <!-- CARTEL 1: La Sede Te Acompaña -->
+  <cartel-acompana
+    titulo-palabra1="LA SEDE"
+    titulo-palabra2="TE"
+    titulo-palabra3="ACOMPAÑA"
+    subtitulo1="El respeto no se negocia"
+    subtitulo2="¡Pará ya de acosar!"
+    qr-texto="Si necesitas ayuda, escánea este QR"
+    imagen1="img/cr.png"
+    imagen2="img/nicolaa.png"
+    sede="SG"
+    sede-nombre="Sede de Guanacaste">
+  </cartel-acompana>
+
+  <!-- CARTEL 2: Letrero de direcciones UCR -->
+  <letrero-direcciones
+    titulo="UCR"
+    filas='[
+      "Aulas 5, 6, 7",
+      "Apoyo Informático",
+      "Servidores",
+      "Laboratorio 1 y 2",
+      "Coordinación<br>Informática Empresarial"
+    ]'>
+  </letrero-direcciones>
+
+</body>
+</html>
